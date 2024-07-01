@@ -1,0 +1,5 @@
+s=input("Enter String")
+new_s=s.replace('e','')
+print(s)
+print('After removing',new_s)
+print(f"After removal {new_s}".format(new_s))
