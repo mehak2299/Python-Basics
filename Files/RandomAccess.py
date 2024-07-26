@@ -1,0 +1,10 @@
+f=open('two.txt','rb')
+print(f.tell())
+print(f.read())
+f.seek(7)
+print(f.tell())
+print(f.read())
+
+f.seek(-10,2)
+print(f.tell())
+print(f.read().decode('utf-8'))
